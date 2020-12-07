@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+main{
+    width: 70%;
+    padding: 20px;
+    margin-left: 15%;
+    background-color: darkred;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular\ \(1\).ttf);
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    margin: 10px;
+    transition: all 3s ease;
+}
+
+.video{
+    display: flex;
+}
+
+.video1{
+    margin: 10px;
+}
+
+.photo:hover{
+    background-image: url(../img/bernard-hermant-bSpqe48INMg-unsplash.jpg);
+    background-size: 100%;
+    transform: rotate(360deg) scale(2);
+}
+
+h1{
+    width: 100%;
+}
+p{
+    width: 100%;
+}
+.photo1{
+    background-image: url(../img/car.jpg);
+    background-size: 100%;
+}
+.photo2{
+    background-image: url(../img/nissan.jpg);
+    background-size: 100%;
+}
+.photo3{
+    background-image: url(../img/ae-86.jpg);
+background-size: 100%;
+}
+.photo4{
+    background-image: url(../img/skyline.jpg);
+    background-size: 100%;
+}
+.photo5{
+    background-image: url(../img/karol-smoczynski-BsNhk7qoOuM-unsplash.jpg);
+    background-size: 100%;
+}
+.photo6{
+    background-image: url(../img/patrik-storm-alstra-pictures-dsYuMoQtg6g-unsplash\ \(2\).jpg);
+    background-size: 100%;
+}
+.photo7{
+    background-image: url(../img/wassim-chouak-GawIeAJZAHo-unsplash.jpg);
+    background-size: 100%;
+}
+.photo8{
+    background-image: url(../img/patrick.jpg);
+    background-size: 100%;
+}
+.photo9{
+    background-image: url(../img/subaru.jpg);
+    background-size: 100%;
+}
+.photo10{
+    background-image: url(../img/ondrej-trnak-bGa9LkHqZTI-unsplash.jpg);
+    background-size: 100%;
+}
+.photo11{
+    background-image: url(../img/emery-meyer-KfVfWL9utV4-unsplash.jpg);
+    background-size: 100%;
+
+}
+.photo12{
+    background-image: url(../img/loris-demaria-oxDPMbMcCM8-unsplash.jpg);
+    background-size: 100%;
+}
