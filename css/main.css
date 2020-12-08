@@ -7,7 +7,7 @@
 body{
     background-color: rgb(4, 0, 255);
     background-image:  url(../img/s1.png), url(../img/s2.png);
-    background-size: 20%;
+    background-size: 25%;
     animation: snow 20s linear infinite;
     
 }
