@@ -5,8 +5,18 @@
 }
 
 body{
-    background-color: blueviolet;
+    background-color: rgb(4, 0, 255);
+    background-image:  url(../img/s1.png), url(../img/s2.png);
+    background-size: 20%;
+    animation: snow 20s linear infinite;
+    
 }
+
+@keyframes snow{
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
 
 main{
     width: 70%;
